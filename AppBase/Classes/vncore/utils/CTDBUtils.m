@@ -6,8 +6,8 @@
 //  Copyright (c) 2012年 beikr.com. All rights reserved.
 //
 
-#import "VDBUtils.h"
+#import "CTDBUtils.h"
 
-@implementation VDBUtils
+@implementation CTDBUtils
 
 @end

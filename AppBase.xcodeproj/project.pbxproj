@@ -67,10 +67,11 @@
 		796C0DA515E3499E0064A151 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0DA415E3499E0064A151 /* MobileCoreServices.framework */; };
 		796C0DA715E34A170064A151 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0DA615E34A170064A151 /* QuartzCore.framework */; };
 		796C0DA915E34A4F0064A151 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0DA815E34A4E0064A151 /* libz.1.2.5.dylib */; };
+		798563E415EE0CD2009B809A /* CTOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 798563E315EE0CD2009B809A /* CTOpenUDID.m */; };
 		79F94D7515E7562000269C6B /* UIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D7415E7562000269C6B /* UIBase.m */; };
-		79F94D7D15E757D100269C6B /* VDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D7C15E757D100269C6B /* VDBUtils.m */; };
-		79F94D8015E757F700269C6B /* VUIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D7F15E757F700269C6B /* VUIUtil.m */; };
-		79F94D8315E7580700269C6B /* VDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D8215E7580700269C6B /* VDateUtil.m */; };
+		79F94D7D15E757D100269C6B /* CTDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D7C15E757D100269C6B /* CTDBUtils.m */; };
+		79F94D8015E757F700269C6B /* CTIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D7F15E757F700269C6B /* CTIUtil.m */; };
+		79F94D8315E7580700269C6B /* CTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D8215E7580700269C6B /* CTDateUtil.m */; };
 		79F94D8B15E7588A00269C6B /* CIBtnList.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D8A15E7588A00269C6B /* CIBtnList.m */; };
 		79F94D8E15E75E0C00269C6B /* CIPageControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D8D15E75E0C00269C6B /* CIPageControll.m */; };
 /* End PBXBuildFile section */
@@ -192,15 +193,17 @@
 		796C0DA415E3499E0064A151 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		796C0DA615E34A170064A151 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		796C0DA815E34A4E0064A151 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		798563E215EE0CD2009B809A /* CTOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CTOpenUDID.h; sourceTree = "<group>"; };
+		798563E315EE0CD2009B809A /* CTOpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTOpenUDID.m; sourceTree = "<group>"; };
 		79F94D7315E7562000269C6B /* UIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBase.h; sourceTree = "<group>"; };
 		79F94D7415E7562000269C6B /* UIBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBase.m; sourceTree = "<group>"; };
-		79F94D7715E7579E00269C6B /* VUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VUtils.h; path = utils/VUtils.h; sourceTree = "<group>"; };
-		79F94D7B15E757D100269C6B /* VDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDBUtils.h; path = utils/VDBUtils.h; sourceTree = "<group>"; };
-		79F94D7C15E757D100269C6B /* VDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDBUtils.m; path = utils/VDBUtils.m; sourceTree = "<group>"; };
-		79F94D7E15E757F700269C6B /* VUIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VUIUtil.h; path = utils/VUIUtil.h; sourceTree = "<group>"; };
-		79F94D7F15E757F700269C6B /* VUIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VUIUtil.m; path = utils/VUIUtil.m; sourceTree = "<group>"; };
-		79F94D8115E7580600269C6B /* VDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDateUtil.h; path = utils/VDateUtil.h; sourceTree = "<group>"; };
-		79F94D8215E7580700269C6B /* VDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDateUtil.m; path = utils/VDateUtil.m; sourceTree = "<group>"; };
+		79F94D7715E7579E00269C6B /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; name = Utils.h; path = utils/Utils.h; sourceTree = "<group>"; };
+		79F94D7B15E757D100269C6B /* CTDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; name = CTDBUtils.h; path = utils/CTDBUtils.h; sourceTree = "<group>"; };
+		79F94D7C15E757D100269C6B /* CTDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDBUtils.m; path = utils/CTDBUtils.m; sourceTree = "<group>"; };
+		79F94D7E15E757F700269C6B /* CTUIUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; name = CTUIUtil.h; path = utils/CTUIUtil.h; sourceTree = "<group>"; };
+		79F94D7F15E757F700269C6B /* CTIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTIUtil.m; path = utils/CTIUtil.m; sourceTree = "<group>"; };
+		79F94D8115E7580600269C6B /* CTDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; name = CTDateUtil.h; path = utils/CTDateUtil.h; sourceTree = "<group>"; };
+		79F94D8215E7580700269C6B /* CTDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDateUtil.m; path = utils/CTDateUtil.m; sourceTree = "<group>"; };
 		79F94D8915E7588A00269C6B /* CIBtnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIBtnList.h; path = cutmUI/CIBtnList.h; sourceTree = "<group>"; };
 		79F94D8A15E7588A00269C6B /* CIBtnList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIBtnList.m; path = cutmUI/CIBtnList.m; sourceTree = "<group>"; };
 		79F94D8C15E75E0C00269C6B /* CIPageControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPageControll.h; sourceTree = "<group>"; };
@@ -523,13 +526,15 @@
 		79F94D7A15E757A300269C6B /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				79F94D7715E7579E00269C6B /* VUtils.h */,
-				79F94D7B15E757D100269C6B /* VDBUtils.h */,
-				79F94D7C15E757D100269C6B /* VDBUtils.m */,
-				79F94D7E15E757F700269C6B /* VUIUtil.h */,
-				79F94D7F15E757F700269C6B /* VUIUtil.m */,
-				79F94D8115E7580600269C6B /* VDateUtil.h */,
-				79F94D8215E7580700269C6B /* VDateUtil.m */,
+				798563E215EE0CD2009B809A /* CTOpenUDID.h */,
+				798563E315EE0CD2009B809A /* CTOpenUDID.m */,
+				79F94D7715E7579E00269C6B /* Utils.h */,
+				79F94D7B15E757D100269C6B /* CTDBUtils.h */,
+				79F94D7C15E757D100269C6B /* CTDBUtils.m */,
+				79F94D7E15E757F700269C6B /* CTUIUtil.h */,
+				79F94D7F15E757F700269C6B /* CTIUtil.m */,
+				79F94D8115E7580600269C6B /* CTDateUtil.h */,
+				79F94D8215E7580700269C6B /* CTDateUtil.m */,
 			);
 			name = utils;
 			sourceTree = "<group>";
@@ -658,12 +663,13 @@
 				796C0D8A15E339970064A151 /* Reachability.m in Sources */,
 				796C0D8E15E33D510064A151 /* VNets.m in Sources */,
 				79F94D7515E7562000269C6B /* UIBase.m in Sources */,
-				79F94D7D15E757D100269C6B /* VDBUtils.m in Sources */,
-				79F94D8015E757F700269C6B /* VUIUtil.m in Sources */,
-				79F94D8315E7580700269C6B /* VDateUtil.m in Sources */,
+				79F94D7D15E757D100269C6B /* CTDBUtils.m in Sources */,
+				79F94D8015E757F700269C6B /* CTIUtil.m in Sources */,
+				79F94D8315E7580700269C6B /* CTDateUtil.m in Sources */,
 				79F94D8B15E7588A00269C6B /* CIBtnList.m in Sources */,
 				79F94D8E15E75E0C00269C6B /* CIPageControll.m in Sources */,
 				790C573915EDBDE20008629A /* CINotificationView.m in Sources */,
+				798563E415EE0CD2009B809A /* CTOpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

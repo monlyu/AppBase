@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface VUIUtil : NSObject
+@interface CTUIUtil : NSObject
 
 +(UIColor *)color:(float)red blue:(float)blue green:(float)green alpha:(float)alpha;
 +(UIColor *)color:(NSString *)hex alpha:(float)alpha;

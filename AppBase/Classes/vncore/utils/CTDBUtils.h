@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface VDBUtils : NSObject
+@interface CTDBUtils : NSObject
 
 @end
