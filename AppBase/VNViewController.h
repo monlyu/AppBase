@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIBase.h"
 
-@interface VNViewController : UIViewController
+@interface VNViewController : UIBase
 
 @end

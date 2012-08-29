@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "Conifig.h"
+#import "CINotificationView.h"
 #import "EGOImageView.h"
 #import "MGJSON.h"
+#import "VUtils.h"
 
 @interface UIBase : UIViewController
+
+-(void)showMessge:(NSString *)msg;
+-(void)showErrorMessage:(NSString *)error;
+-(void)showWaringMessage:(NSString *)warning;
 
 @end

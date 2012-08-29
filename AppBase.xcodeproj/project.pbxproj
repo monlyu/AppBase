@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790C573915EDBDE20008629A /* CINotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C573815EDBDE20008629A /* CINotificationView.m */; };
 		796C0CC615E32D650064A151 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0CC515E32D650064A151 /* UIKit.framework */; };
 		796C0CC815E32D650064A151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0CC715E32D650064A151 /* Foundation.framework */; };
 		796C0CCA15E32D650064A151 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0CC915E32D650064A151 /* CoreGraphics.framework */; };
@@ -75,6 +76,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		790C573715EDBDE20008629A /* CINotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CINotificationView.h; sourceTree = "<group>"; };
+		790C573815EDBDE20008629A /* CINotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CINotificationView.m; sourceTree = "<group>"; };
 		7969A2E715E35B5700D9EEAE /* Conifig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conifig.h; sourceTree = "<group>"; };
 		796C0CC115E32D650064A151 /* AppBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		796C0CC515E32D650064A151 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -198,9 +201,9 @@
 		79F94D7F15E757F700269C6B /* VUIUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VUIUtil.m; path = utils/VUIUtil.m; sourceTree = "<group>"; };
 		79F94D8115E7580600269C6B /* VDateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDateUtil.h; path = utils/VDateUtil.h; sourceTree = "<group>"; };
 		79F94D8215E7580700269C6B /* VDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDateUtil.m; path = utils/VDateUtil.m; sourceTree = "<group>"; };
-		79F94D8915E7588A00269C6B /* CIBtnList.h */ = {isa = PBXFileReference; fileEncoding = 4; name = CIBtnList.h; path = cutmUI/CIBtnList.h; sourceTree = "<group>"; };
+		79F94D8915E7588A00269C6B /* CIBtnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIBtnList.h; path = cutmUI/CIBtnList.h; sourceTree = "<group>"; };
 		79F94D8A15E7588A00269C6B /* CIBtnList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIBtnList.m; path = cutmUI/CIBtnList.m; sourceTree = "<group>"; };
-		79F94D8C15E75E0C00269C6B /* CIPageControll.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CIPageControll.h; sourceTree = "<group>"; };
+		79F94D8C15E75E0C00269C6B /* CIPageControll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIPageControll.h; sourceTree = "<group>"; };
 		79F94D8D15E75E0C00269C6B /* CIPageControll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIPageControll.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -534,6 +537,8 @@
 		79F94D8815E7585B00269C6B /* cutmUI */ = {
 			isa = PBXGroup;
 			children = (
+				790C573715EDBDE20008629A /* CINotificationView.h */,
+				790C573815EDBDE20008629A /* CINotificationView.m */,
 				79F94D8C15E75E0C00269C6B /* CIPageControll.h */,
 				79F94D8D15E75E0C00269C6B /* CIPageControll.m */,
 				79F94D8915E7588A00269C6B /* CIBtnList.h */,
@@ -658,6 +663,7 @@
 				79F94D8315E7580700269C6B /* VDateUtil.m in Sources */,
 				79F94D8B15E7588A00269C6B /* CIBtnList.m in Sources */,
 				79F94D8E15E75E0C00269C6B /* CIPageControll.m in Sources */,
+				790C573915EDBDE20008629A /* CINotificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
