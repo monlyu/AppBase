@@ -6,9 +6,9 @@
 //  Copyright (c) 2012年 beikr.com. All rights reserved.
 //
 
-#import "VDateUtil.h"
+#import "CTDateUtil.h"
 
-@implementation VDateUtil
+@implementation CTDateUtil
 +(NSDate *)dateWithIntervalFrom1970:(NSTimeInterval)interl{
     return [NSDate dateWithTimeIntervalSince1970:interl];
 }

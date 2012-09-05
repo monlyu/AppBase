@@ -11,7 +11,7 @@
 #import "CINotificationView.h"
 #import "EGOImageView.h"
 #import "MGJSON.h"
-#import "VUtils.h"
+#import "Utils.h"
 
 @interface UIBase : UIViewController
 

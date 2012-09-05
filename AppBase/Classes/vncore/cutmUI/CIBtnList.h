@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VUtils.h"
+#import "Utils.h"
 
 @protocol CIBtnListClickDelegate <NSObject>
 -(void)listBtnClickWithButton:(UIButton *)button index:(NSNumber*)index;
