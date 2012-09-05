@@ -3,7 +3,7 @@
 //  AppBase
 //
 //  Created by 显宏 黄 on 12-8-24.
-//  Copyright (c) 2012年 beikr.com. All rights reserved.
+//  Copyright (c) 2012年 All rights reserved.
 //
 
 #import "UIBase.h"
@@ -21,4 +21,14 @@
 -(void)showWaringMessage:(NSString *)warning{
     [CINotificationView showNoticeInView:self.view type:CINotificationTypeRed title:warning hideAfter:1];
 }
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    } else {
+        return YES;
+    }
+}
+
 @end

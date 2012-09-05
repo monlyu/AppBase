@@ -66,6 +66,7 @@
 		796C0DA515E3499E0064A151 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0DA415E3499E0064A151 /* MobileCoreServices.framework */; };
 		796C0DA715E34A170064A151 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0DA615E34A170064A151 /* QuartzCore.framework */; };
 		796C0DA915E34A4F0064A151 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C0DA815E34A4E0064A151 /* libz.1.2.5.dylib */; };
+		79E30C3D15F7329E00CC529C /* CITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E30C3C15F7329E00CC529C /* CITableView.m */; };
 		79F60B8215F6EA6C000CA4A8 /* CIEGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60B7D15F6EA6C000CA4A8 /* CIEGOImageView.m */; };
 		79F60B8315F6EA6C000CA4A8 /* CINotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60B7F15F6EA6C000CA4A8 /* CINotificationView.m */; };
 		79F60B8415F6EA6C000CA4A8 /* CIPageControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60B8115F6EA6C000CA4A8 /* CIPageControll.m */; };
@@ -193,6 +194,8 @@
 		796C0DA415E3499E0064A151 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		796C0DA615E34A170064A151 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		796C0DA815E34A4E0064A151 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		79E30C3B15F7329E00CC529C /* CITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CITableView.h; path = cutmUI/CITableView.h; sourceTree = "<group>"; };
+		79E30C3C15F7329E00CC529C /* CITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CITableView.m; path = cutmUI/CITableView.m; sourceTree = "<group>"; };
 		79F60B7C15F6EA6C000CA4A8 /* CIEGOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIEGOImageView.h; path = cutmUI/CIEGOImageView.h; sourceTree = "<group>"; };
 		79F60B7D15F6EA6C000CA4A8 /* CIEGOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIEGOImageView.m; path = cutmUI/CIEGOImageView.m; sourceTree = "<group>"; };
 		79F60B7E15F6EA6C000CA4A8 /* CINotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CINotificationView.h; path = cutmUI/CINotificationView.h; sourceTree = "<group>"; };
@@ -558,6 +561,8 @@
 				79F60B8115F6EA6C000CA4A8 /* CIPageControll.m */,
 				79F94D8915E7588A00269C6B /* CIBtnList.h */,
 				79F94D8A15E7588A00269C6B /* CIBtnList.m */,
+				79E30C3B15F7329E00CC529C /* CITableView.h */,
+				79E30C3C15F7329E00CC529C /* CITableView.m */,
 			);
 			name = cutmUI;
 			sourceTree = "<group>";
@@ -682,6 +687,7 @@
 				79F60B8415F6EA6C000CA4A8 /* CIPageControll.m in Sources */,
 				79F60B8915F6EA96000CA4A8 /* CTAPIInvoker.m in Sources */,
 				79F60B8A15F6EA96000CA4A8 /* CTOpenUDID.m in Sources */,
+				79E30C3D15F7329E00CC529C /* CITableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

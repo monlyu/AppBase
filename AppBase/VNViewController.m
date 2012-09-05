@@ -3,7 +3,7 @@
 //  AppBase
 //
 //  Created by 显宏 黄 on 12-8-21.
-//  Copyright (c) 2012年 beikr.com. All rights reserved.
+//  Copyright (c) 2012年  All rights reserved.
 //
 
 #import "VNViewController.h"
@@ -12,7 +12,6 @@
 
 - (void)didReceiveMemoryWarning
 {
-    
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
 }
@@ -23,8 +22,37 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    CITableView *ta = [[CITableView alloc] initWithFrame:CGRectMake(10 , 0, 320, 200) andDelegate:self];
+    ta.delegate = self;
+    ta.dataSource = self;
+    [self.view addSubview:ta];
+    
 }
+
+-(void)refreshToLatest:(CITableView*)table control:(ODRefreshControl*)control{
+    double delayInSeconds = 3.0;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [control endRefreshing];
+    }); 
+}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    static NSString *idf = @"sss";
+    UITableViewCell *cel = [tableView dequeueReusableCellWithIdentifier:idf];
+    if (cel==nil) {
+        cel = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:idf] autorelease];
+    }
+    cel.textLabel.text = [[NSDate date] parse:@"yyyy-MM-dd HH:mm:ss"];
+
+    return cel;
+}
+
 
 - (void)viewDidUnload
 {
