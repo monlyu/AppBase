@@ -18,5 +18,8 @@
 //API接口相关
 #import "CTAPIInvoker.h"
 
+//GPS同步获取对应的一些数据
+#import "CTGPSUtil.h"
+
 
 

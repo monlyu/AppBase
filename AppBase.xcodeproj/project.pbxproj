@@ -77,6 +77,8 @@
 		79F94D8015E757F700269C6B /* CTIUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D7F15E757F700269C6B /* CTIUtil.m */; };
 		79F94D8315E7580700269C6B /* CTDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D8215E7580700269C6B /* CTDateUtil.m */; };
 		79F94D8B15E7588A00269C6B /* CIBtnList.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F94D8A15E7588A00269C6B /* CIBtnList.m */; };
+		BD275154161054460022F1F9 /* CTGPSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BD275153161054460022F1F9 /* CTGPSUtil.m */; };
+		BD275157161054A40022F1F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD275156161054A40022F1F9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -217,6 +219,9 @@
 		79F94D8215E7580700269C6B /* CTDateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTDateUtil.m; path = utils/CTDateUtil.m; sourceTree = "<group>"; };
 		79F94D8915E7588A00269C6B /* CIBtnList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CIBtnList.h; path = cutmUI/CIBtnList.h; sourceTree = "<group>"; };
 		79F94D8A15E7588A00269C6B /* CIBtnList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CIBtnList.m; path = cutmUI/CIBtnList.m; sourceTree = "<group>"; };
+		BD275152161054460022F1F9 /* CTGPSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTGPSUtil.h; sourceTree = "<group>"; };
+		BD275153161054460022F1F9 /* CTGPSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTGPSUtil.m; sourceTree = "<group>"; };
+		BD275156161054A40022F1F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD275157161054A40022F1F9 /* CoreLocation.framework in Frameworks */,
 				796C0DA915E34A4F0064A151 /* libz.1.2.5.dylib in Frameworks */,
 				796C0DA715E34A170064A151 /* QuartzCore.framework in Frameworks */,
 				796C0DA515E3499E0064A151 /* MobileCoreServices.framework in Frameworks */,
@@ -260,6 +266,7 @@
 		796C0CC415E32D650064A151 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD275156161054A40022F1F9 /* CoreLocation.framework */,
 				796C0DA615E34A170064A151 /* QuartzCore.framework */,
 				796C0DA415E3499E0064A151 /* MobileCoreServices.framework */,
 				796C0D9B15E347F20064A151 /* libxml2.dylib */,
@@ -535,6 +542,8 @@
 		79F94D7A15E757A300269C6B /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				BD275152161054460022F1F9 /* CTGPSUtil.h */,
+				BD275153161054460022F1F9 /* CTGPSUtil.m */,
 				79F60B8515F6EA96000CA4A8 /* CTAPIInvoker.h */,
 				79F60B8615F6EA96000CA4A8 /* CTAPIInvoker.m */,
 				79F60B8715F6EA96000CA4A8 /* CTOpenUDID.h */,
@@ -688,6 +697,7 @@
 				79F60B8915F6EA96000CA4A8 /* CTAPIInvoker.m in Sources */,
 				79F60B8A15F6EA96000CA4A8 /* CTOpenUDID.m in Sources */,
 				79E30C3D15F7329E00CC529C /* CITableView.m in Sources */,
+				BD275154161054460022F1F9 /* CTGPSUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
